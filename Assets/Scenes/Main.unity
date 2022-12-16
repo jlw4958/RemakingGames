@@ -217,8 +217,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2116344012}
   - component: {fileID: 2116344011}
-  - component: {fileID: 2116344010}
   - component: {fileID: 2116344009}
+  - component: {fileID: 2116344010}
   - component: {fileID: 2116344013}
   m_Layer: 0
   m_Name: ball
@@ -263,7 +263,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: -0.01, y: 0.01}
   serializedVersion: 2
-  m_Radius: 0.38
+  m_Radius: 0.26
 --- !u!212 &2116344011
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -324,7 +324,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2116344008}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -3.04, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -343,3 +343,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6434175e68f11045a0f83255aea67b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ballRigidBody: {fileID: 2116344009}
+  velocityChange: 4
