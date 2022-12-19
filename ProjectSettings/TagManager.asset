@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - pink Collide
+  - purple Collide
+  - spin Circle
+  - spin Tri 1
+  - spin Tri 2
+  - plus
   layers:
   - Default
   - TransparentFX
