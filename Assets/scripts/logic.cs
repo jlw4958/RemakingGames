@@ -20,6 +20,7 @@ public class logic : MonoBehaviour
     int maxHeight;
 
     GameObject obstacle;
+    string[] obstacleTypes = new string[4] { };
 
 
     // Start is called before the first frame update
